@@ -1,0 +1,68 @@
+/* debut modif about */
+.article1 .about{
+    width: 100%;
+    height: 770px;
+    background-color: red;
+}
+
+
+.heading{
+    font-size: 35px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 40%;
+    padding-right: 40%;
+    margin-bottom: 1%;
+}
+
+.bout h3{
+    color:white;
+    font-size: 22px;
+    padding-left: 20%;
+    text-align: center;
+    display: flex;
+    margin-bottom: 6%;
+}
+
+.about .row-1 .bout p{
+    color:white;
+    font-size: 17px;
+    flex-wrap: wrap;
+    padding-left: 30%;
+    padding-bottom: 4%;
+}
+
+.about .row-1 .bout .box-container{
+    display: flex;
+}
+
+.about .row-1 .bout .box-container .box{
+    flex: 1 1 20rem;
+}
+
+.about .row-1 .bout .box-container .box span{
+    color: #201b22;
+}
+
+.about .row-1 .bout .box-container .box p{
+    color: white;
+}
+
+.btm{
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 25%;
+    padding:2% 3%;
+    background:var(--main-color);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.btm:hover{
+    background: #1f1a20;
+    letter-spacing: 5px;
+}
+
+/* fin modif about */
